@@ -1,0 +1,128 @@
+/* 반응형 */
+/* 바꿀 값만 적기 */
+
+@media screen and (max-width: 1140px) {
+    header .container {
+        width: 100%;
+    }
+    
+    main.container {
+        width: 992px;
+    }
+    section .container {
+        width: 600px;
+    }
+
+    section .introduce .left {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    section .introduce .right {
+        width: 100%;
+        padding: 0;
+    }
+
+    section .do-me .do-inner {
+        /* 2개씩 보이도록 */
+        width: 48%;
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    section .do-me .do-inner:nth-child(2n+1) {
+        /* 홀수값만 */
+        margin-right: 4%;
+    }
+
+    section.protfolio .portfolio-inner {
+        width: 48%;
+        margin-right: 0;
+    }
+
+    section.protfolio .portfolio-inner:nth-child(2n+1) {
+        margin-right: 4%;
+    }
+
+    section.contact .contact-me .left {
+        width: 90%;
+    }
+
+    section.contact .contact-me .right {
+        width: 90%;
+        margin-left: 0 auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 14px;
+    }
+
+    main.container {
+        width: 768px;
+    }
+
+    section.protfolio .portfolio-inner {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 13px;
+    }
+
+    main.container {
+        width: 576px;
+    }
+
+    section.container {
+        width: 400px;
+    }
+
+    section .do-me .do-inner {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    html {
+        font-size: 12px;
+    }
+
+    main.container {
+        width: 400px;
+    }
+
+    section.container {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    html {
+        font-size: 11px;
+    }
+
+    #main {
+        width: 400px;
+    }
+
+    main.container {
+        width: 320px;
+    }
+
+    main h4 {
+        font-size: 1.3rem;
+    }
+
+    section.container {
+        width: 320px;
+    }
+
+    section .title h2 {
+        font-size: 2.9rem;
+    }
+}
