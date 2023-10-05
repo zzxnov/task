@@ -301,3 +301,16 @@ section.contact .contact-me .right button {
 section.contact .contact-me .right button:hover {
     cursor: pointer;
 }
+
+footer {
+    width: 20%;
+    height: 30px;
+    margin: 0 auto;
+}
+
+footer p {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    white-space: nowrap;
+}
